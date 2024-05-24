@@ -1,0 +1,1400 @@
+.Header-Full{
+   width: 1470px;
+   height: 80px;
+   margin-bottom: 1px; 
+   position: sticky;
+    top: 0;
+    z-index: 10;
+   
+}
+.Content-Full{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    
+}
+.Header-Full .right{
+    width: 40%;
+    height: 100%;
+    /* background-color: springgreen; */
+    float: left;
+  
+}
+
+.Header-Full .right ul{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 3%;
+
+}
+.Header-Full .right ul li{
+    float: left;
+
+}
+.Header-Full .right ul li a{
+    font-size: 17px;
+    height: 100%;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+    text-align: center;
+    opacity: 0.7;
+}
+.Header-Full .right ul li a:hover{
+    opacity: 1;
+}
+
+.Header-Full .middle {
+    width: 35%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /* background-color: blueviolet; */
+    float: left;
+    margin-top: 0;
+    
+
+}
+.middle h1 {
+    margin-top: 0;
+    font-size: 30px;
+    display: block;
+    text-decoration: none;
+    font-family: "Bungee Shade", sans-serif;
+    color: white;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.middle h1:hover{
+    opacity: 1;
+}
+.Header-Full .left{
+    width: 25%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+    
+}
+.left .ship-to{
+    font-size: 17px;
+    margin-top: 5%;
+    height: 100%;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+    text-align: center;
+    float: left;
+    opacity: 0.7;
+}
+.ship-to:hover{
+    opacity: 1;
+}
+.left .US{
+    
+    font-size: 17px;
+    margin-top: 4%;
+    height: 100%;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+    text-align: center;
+    float: left;
+    
+}
+.left .US table tr td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    opacity: 0.7;
+}
+.left .US :hover {
+    opacity: 1;
+}
+.left .UK{
+    font-size: 17px;
+    margin-top: 4%;
+    height: 100%;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+    text-align: center;
+    float: left;
+    opacity: 0.7;
+}
+.left .UK table:hover {
+    opacity: 1;
+    border: 1px solid white;
+    border-collapse: collapse; 
+}
+.UK:hover{
+    opacity: 1;
+
+}
+.fa-brands{
+    margin-top: 7%;
+    font-size: 28px;
+    float: left;
+    color: white;
+    margin-right: 6%;
+    margin-left: 6%;
+    opacity: 0.7;
+}
+.fa-brands:hover{
+    opacity: 1;
+}
+.fa-solid{
+    margin-top: 7%;
+    font-size: 28px;
+    float: left;
+    color: white;
+    margin-right: 6%;
+    margin-left: 6%;
+    opacity: 0.7;
+}
+.fa-solid:hover{
+    opacity: 1;
+}
+.left .search {
+    margin-top: 7%;
+    font-size: 28px;
+    float: left;
+    color: white;
+    opacity: 0.7;
+}.left .search:hover{
+    opacity: 1;
+} 
+.body{
+    
+    width: 1470px;
+    overflow: hidden;
+    /* background-color: tomato; */
+    
+}
+.background {
+    background-image: url('SB_Drop_Banner_Desktop_2000x\ \(1\).webp');
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    padding: 10px 10px;
+    width: 350px;
+    height: 600px;
+    margin-left: 50px;
+    /* background-color: yellow; */
+}
+.box{
+   margin-top: 450px;
+    width: 350px;
+    height: 50px;
+    /* background-color: rebeccapurple; */
+    
+}
+h2{
+    padding: 5px;
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    font-family: "STIX Two Text", serif;
+    color: white;
+    text-align: center;
+    opacity: 0.7;
+
+}
+h2:hover{
+    opacity: 1;
+    
+}
+.box1{
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    float: left;
+}
+.box1:hover{
+    
+    background-color: black;
+}
+.box1 h4{
+    margin-top: 0;
+    padding: 10px 10px;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.box1 h4:hover{
+    color:white ;
+
+}
+.product1 {
+    width: 100%;
+    height: 650px;
+    /* background-color: green; */
+}
+.product2 {
+    width: 100%;
+    height: 650px;
+    /* background-color: firebrick; */
+}
+.product3 {
+    width: 100%;
+    height: 650px;
+    /* background-color: hotpink; */
+}
+.product4 {
+    width: 100%;
+    height: 650px;
+    /* background-color: orange; */
+}
+.product5 {
+    width: 100%;
+    height: 650px;
+    /* background-color: brown; */
+}
+.product6 {
+    width: 100%;
+    height: 700px;
+    /* background-color: yellow; */
+}
+.footer-full{
+    width: 1470px;
+    height: 600px;
+    background-color: black;
+}
+.footer-full .footer1{
+    width: 30%;
+    height: 100%;
+    /* background-color: black; */
+    float: left;
+}
+.footer-full .footer2{
+    width: 15%;
+    height: 100%;
+    /* background-color: black; */
+    float: left;
+}
+.footer-full .footer3{
+    width: 15%;
+    height: 100%;
+    /* background-color: black; */
+    float: left;
+}
+.footer-full .footer4{
+    width: 15%;
+    height: 100%;
+    /* background-color: black; */
+    float: left;
+}
+.footer-full .footer5{
+    width: 25%;
+    height: 100%;
+    /* background-color: black; */
+    float: left;
+}
+.about h3{
+
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 10px 10px;
+    font-size: 23px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+    /* text-align: center; */
+    
+}
+.about h5{
+    font-size: 15px;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 5%;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Arsenal", sans-serif;
+    color: white;
+    /* text-align: center; */
+}
+.footer-contact .fa-brands{
+    margin-top: 0%;
+    margin-left: 7%;
+    font-size: 20px;
+    color: white;
+    margin-right: 4%;
+    opacity: 0.7;
+}
+.fa-brands:hover{
+    opacity: 1;
+}
+.footer-prime h5{
+    font-size: 15px;
+    height: 100%;
+    margin-top: 50%;
+    margin-left: 5%;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Arsenal", sans-serif;
+    color: white;
+    /* text-align: center; */
+}
+.footer2 ul{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 3%;
+
+}
+.footer2 ul li{
+    float: left;
+
+}
+.footer2 ul li a{
+    font-size: 15px;
+    height: 100%;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+}
+.footer3 ul{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 3%;
+
+}
+.footer3 ul li{
+    float: left;
+
+}
+.footer3 ul li a{
+    font-size: 15px;
+    height: 100%;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+}
+.footer4 ul{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 3%;
+
+}
+.footer4 ul li{
+    float: left;
+
+}
+.footer4 ul li a{
+    font-size: 15px;
+    height: 100%;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+}
+.newslattor h3{
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 10px 10px;
+    font-size: 23px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+
+}
+.newslattor h5{
+    font-size: 15px;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 5%;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Arsenal", sans-serif;
+    color: white;
+    /* text-align: center; */
+}
+.text h5{
+    font-size: 13px;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 5%;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Arsenal", sans-serif;
+    color: white;
+    /* text-align: center; */
+}
+.table h3{
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 120px;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 10px 10px;
+    font-size: 23px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+    text-align: center;
+
+}
+.product1 .hydration{
+    width: 100%;
+    height: 210px;
+    margin-top: 0;
+    /* background-color: teal; */
+
+}
+.product1 .hydration h1{
+    font-size: 200px;
+    height: 80%;
+     margin-top: 0;
+    display: block;
+    text-decoration: none;
+    font-family: "Sansita", sans-serif;
+    color: black;
+    text-align: center;
+
+}
+.product1 .pro1{
+    margin-left: 9%;
+    width: 10%;
+    height: 350px;
+    /* background-color: red; */
+    float: left;
+}
+.product1 .pro2{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: rebeccapurple; */
+    float: left;
+}
+.product1 .pro3{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: orange; */
+    float: left;
+}
+.product1 .pro4{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: purple; */
+    float: left;
+}
+.product1 .pro5{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: gold; */
+    float: left;
+}
+
+.p1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+.p2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+.p3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+.p4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+.p5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+.name h4{
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.name h4 p{
+    margin-top: 0;
+    padding: 10px 10px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+}
+.buy h4 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 0;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product1 .pro3 .name h4{
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.product1 .pro3 .name h4 p{
+    padding: 10px 10px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 0;
+}
+.product1 .pro3 .buy h4 {
+    margin-top: 25px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.product1 .pro3 .buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product1 .pro4 .name h4{
+    
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.product1 .pro4 .name h4 p{
+
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+.product1 .pro4 .buy h4 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 25px;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.product1 .pro4 .buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product1 .pro5 .name h4{
+   margin-top: 25px;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.product1 .pro5 .name h4 p{
+    
+    padding: 10px 10px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 0;
+    
+}
+.product1 .pro5 .buy h4 {
+    margin-top: 65px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.product1 .pro5 .buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product2 .bunner1{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+
+}
+.bunner1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+
+}
+.product2 .bunner2{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+}
+.product2 .bunner2 .bun1{
+    width: 100%;
+    height: 80%;
+    /* background-color: rebeccapurple; */
+    
+}
+.product2 .bunner2 .bun2{
+    width: 100%;
+    height: 20%;
+    /* background-color: gold; */
+    float: left;
+}
+.product1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+
+}
+.product2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+
+}
+.bun2 .box3{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 220px;
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    float: left;
+}
+.bun2 .box3:hover{
+    
+    background-color: white;
+}
+.bun2 .box3 h4{
+    margin-top: 0;
+    margin-top: 15px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+.bun2 .box3 h4:hover{
+    color: black;
+    
+}
+.product3 .hydration{
+    width: 100%;
+    height: 210px;
+    margin-top: 0;
+    /* background-color: teal; */
+
+}
+.product3 .hydration h1{
+    font-size: 200px;
+    height: 80%;
+     margin-top: 0;
+    display: block;
+    text-decoration: none;
+    font-family: "Sansita", sans-serif;
+    color: black;
+    text-align: center;
+
+}
+.product3 .pro1{
+    margin-left: 9%;
+    width: 10%;
+    height: 350px;
+    /* background-color: red; */
+    float: left;
+}
+.product3 .pro2{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: rebeccapurple; */
+    float: left;
+}
+.product3 .pro3{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: orange; */
+    float: left;
+}
+.product3 .pro4{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: purple; */
+    float: left;
+}
+.product3 .pro4{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color:saddlebrown; */
+    float: left;
+}
+.product3 .pro5{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: gold; */
+    float: left;
+}
+.product3 .pro3 .name h4{
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.product3 .pro3 .name h4 p{
+    padding: 10px 10px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 0;
+}
+.product3 .pro3 .buy h4 {
+    margin-top: 25px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.product3 .pro3 .buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product3 .pro4 .name h4{
+    
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.product3 .pro4 .name h4 p{
+
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+.product3 .pro4 .buy h4 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 25px;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.product3 .pro4 .buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product3 .pro5 .name h4{
+   margin-top: 25px;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.product3 .pro5 .name h4 p{
+ 
+    padding: 10px 10px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+.product3 .pro5 .buy h4 {
+    margin-top: 52px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.product3 .pro5 .buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product4 .bunner1{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+
+}
+.bunner1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+
+}
+.product4 .bunner2{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+}
+.product4 .bunner2 .bun1{
+    width: 100%;
+    height: 80%;
+    /* background-color: rebeccapurple; */
+    
+}
+.product4 .bunner2 .bun2{
+    width: 100%;
+    height: 20%;
+    /* background-color: gold; */
+    float: left;
+}
+.product4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+
+}
+.product4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+
+}
+.bun2 .box3{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 220px;
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    float: left;
+}
+.bun2 .box3:hover{
+    
+    background-color: white;
+}
+.bun2 .box3 h4{
+    margin-top: 0;
+    margin-top: 15px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+.bun2 .box3 h4:hover{
+    color: black;
+    
+}
+.product5 .hydration{
+    width: 100%;
+    height: 210px;
+    margin-top: 0;
+    /* background-color: teal; */
+
+}
+.product5 .hydration h1{
+    font-size: 200px;
+    height: 80%;
+     margin-top: 0;
+    display: block;
+    text-decoration: none;
+    font-family: "Sansita", sans-serif;
+    color: black;
+    text-align: center;
+
+}
+.product5 .pro1{
+    margin-left: 9%;
+    width: 10%;
+    height: 350px;
+    /* background-color: red; */
+    float: left;
+}
+.product5 .pro2{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: rebeccapurple; */
+    float: left;
+}
+.product5 .pro3{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: orange; */
+    float: left;
+}
+.product5 .pro4{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: purple; */
+    float: left;
+}
+.product5 .pro4{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color:saddlebrown; */
+    float: left;
+}
+.product5 .pro5{
+    margin-left: 8%;
+    width: 10%;
+    height: 350px;
+    /* background-color: gold; */
+    float: left;
+}
+.product5 .pro1 .name h4{
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.product5 .pro1 .name h4 p{
+    padding: 10px 10px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+   
+    
+}
+.product5 .pro1 .buy h4 {
+    margin-top: 55px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.product5 .pro1 .buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product5 .pro2 .name h4{
+    
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.product5 .pro2 .name h4 p{
+
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+.product5 .pro2 .buy h4 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 55px;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.product5 .pro2 .buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product5 .pro3 .name h4{
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.product5 .pro3 .name h4 p{
+    padding: 10px 10px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 0;
+    
+}
+.product5 .pro3 .buy h4 {
+    margin-top: 0px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.product5 .pro3 .buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product5 .pro4 .name h4{
+    
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.product5 .pro4 .name h4 p{
+
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+.product5 .pro4 .buy h4 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 25px;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.product5 .pro4 .buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product5 .pro5 .name h4{
+   margin-top: 25px;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+}
+.product5 .pro5 .name h4 p{
+    
+    padding: 10px 10px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+.product5 .pro5 .buy h4 {
+    margin-top: 25px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.product5 .pro5 .buy h4:hover{
+    color: white;
+    background-color: black;
+}
+.product6 .bunner1{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+
+}
+.bunner1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+
+}
+.product6 .bunner2{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+}
+.product6 .bunner2 .bun1{
+    width: 100%;
+    height: 80%;
+    /* background-color: rebeccapurple; */
+    
+}
+.product6 .bunner2 .bun2{
+    width: 100%;
+    height: 20%;
+    /* background-color: gold; */
+    float: left;
+}
+.product6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+
+}
+.product6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    float: left;
+
+}
+.bun2 .box3{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 220px;
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    float: left;
+}
+.bun2 .box3:hover{
+    
+    background-color: white;
+}
+.bun2 .box3 h4{
+    margin-top: 0;
+    margin-top: 15px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+.bun2 .box3 h4:hover{
+    color: black;
+    
+}
+
+
+
+
